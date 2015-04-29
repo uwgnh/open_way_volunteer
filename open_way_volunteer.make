@@ -223,6 +223,12 @@ strongarm
 projects[open_way_modules][type] = "module"
 projects[open_way_modules][download][type] = "git"
 projects[open_way_modules][download][url] = "git://github.com/Progressable/open_way_modules.git"
+projects[purr_messages][subdir] = open_way
+
+projects[open_way_structure_vol_opps][type] = "module"
+projects[open_way_structure_vol_opps][download][type] = "git"
+projects[open_way_structure_vol_opps][download][url] = "git://github.com/uwgnh/open_way_structure_vol_opps.git"
+projects[open_way_structure_vol_opps][subdir] = open_way
 
 
 ; Themes
@@ -231,8 +237,6 @@ projects[open_way_modules][download][url] = "git://github.com/Progressable/open_
 projects[open_way_2015][type] = "theme"
 projects[open_way_2015][download][type] = "git"
 projects[open_way_2015][download][url] = "git://github.com/uwgnh/open_way_2015.git"
-
-  github.com/uwgnh/open_way_2015.git
   
 ; Libraries
 ; ---------
