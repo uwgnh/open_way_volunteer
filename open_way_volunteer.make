@@ -21,7 +21,7 @@ projects[better_formats][subdir] = contrib
 
 
 projects[ctools][type] = "module"
-projects[ctools][version] = 1.0
+projects[ctools][version] = 1.7
 projects[ctools][subdir] = contrib
 
 projects[custom_breadcrumbs][type] = "module"
@@ -29,11 +29,11 @@ projects[custom_breadcrumbs][version] = 1.0-alpha1
 projects[custom_breadcrumbs][subdir] = contrib
 
 projects[date][type] = "module"
-projects[date][version] = 2.3
+projects[date][version] = 2.8
 projects[date][subdir] = contrib
 
 projects[email][type] = "module"
-projects[email][version] = 1.0
+projects[email][version] = 1.3
 projects[email][subdir] = contrib
 
 projects[extlink][type] = "module"
@@ -41,12 +41,12 @@ projects[extlink][version] = 1.12
 projects[extlink][subdir] = contrib
 
 projects[features][type] = "module"
-projects[features][version] = 1.0-rc2
+projects[features][version] = 1.0
 projects[features][subdir] = contrib
 
 
 projects[google_analytics][type] = "module"
-projects[google_analytics][version] = 1.2
+projects[google_analytics][version] = 1.4
 projects[google_analytics][subdir] = contrib
 
 projects[imageapi][type] = "module"
@@ -62,11 +62,11 @@ projects[libraries][version] = 1.0
 projects[libraries][subdir] = contrib
 
 projects[link][type] = "module"
-projects[link][version] = 1.0
+projects[link][version] = 1.4
 projects[link][subdir] = contrib
 
 projects[logintoboggan][type] = "module"
-projects[logintoboggan][version] = 1.3
+projects[logintoboggan][version] = 1.4
 projects[logintoboggan][subdir] = contrib
 
 
@@ -80,11 +80,11 @@ projects[options_element][version] = 1.7
 projects[options_element][subdir] = contrib
 
 projects[pathauto][type] = "module"
-projects[pathauto][version] = 1.1
+projects[pathauto][version] = 1.2
 projects[pathauto][subdir] = contrib
 
 projects[redirect][type] = "module"
-projects[redirect][version] = 1.0-beta4
+projects[redirect][version] = 1.0-rc1
 projects[redirect][subdir] = contrib
 
 projects[role_delegation][type] = "module"
@@ -96,7 +96,7 @@ projects[save_draft][version] = 1.4
 projects[save_draft][subdir] = contrib
 
 projects[search404][type] = "module"
-projects[search404][version] = 1.1
+projects[search404][version] = 1.3
 projects[search404][subdir] = contrib
 
 projects[service_links][type] = "module"
@@ -110,12 +110,12 @@ projects[strongarm][subdir] = contrib
 
 
 projects[token][type] = "module"
-projects[token][version] = 1.1
+projects[token][version] = 1.6
 projects[token][subdir] = contrib
 
 
 projects[views][type] = "module"
-projects[views][version] = 3.3
+projects[views][version] = 3.11
 projects[views][subdir] = contrib
 
 projects[webform][type] = "module"
@@ -126,13 +126,13 @@ projects[jquery_update][version] = 2.2
 projects[jquery_update][type] = "module"
 projects[jquery_update][subdir] = contrib
 
-projects[defaultcontent][version] = 1.0-alpha6
+projects[defaultcontent][version] = 1.0-alpha9
 projects[defaultcontent][subdir] = contrib
 
-projects[field_group][version] = 1.1
+projects[field_group][version] = 1.4
 projects[field_group][subdir] = contrib
 
-projects[globalredirect][version] = 1.4
+projects[globalredirect][version] = 1.5
 projects[globalredirect][subdir] = contrib
 
 
@@ -143,7 +143,7 @@ projects[profile2][subdir] = contrib
 projects[file_entity][version] = 2.0-unstable3
 projects[file_entity][subdir] = contrib
 
-projects[entity][version] = 1.0-rc2
+projects[entity][version] = 1.6
 projects[entity][subdir] = contrib
 
 
@@ -172,7 +172,7 @@ projects[site_verify][subdir] = contrib
 
 
 projects[metatag][type] = "module"
-projects[metatag][version] = 1.0-alpha6
+projects[metatag][version] = 1.4
 projects[metatag][subdir] = contrib
 
 projects[purr_messages][type] = "module"
@@ -190,17 +190,17 @@ projects[calendar][subdir] = contrib
 
 
 
-projects[facetapi][version] = 1.3
+projects[facetapi][version] = 1.5
 projects[facetapi][type] = "module"
 projects[facetapi][subdir] = contrib
 
 
-projects[facetapi_pretty_paths][version] = 1.3
+projects[facetapi_pretty_paths][version] = 1.4
 projects[facetapi_pretty_paths][type] = "module"
 projects[facetapi_pretty_paths][subdir] = contrib
 
 
-projects[features_extra][version] = 1.0-beta1
+projects[features_extra][version] = 1.0-rc2
 projects[features_extra][type] = "module"
 projects[features_extra][subdir] = contrib
 
