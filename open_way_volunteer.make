@@ -62,7 +62,7 @@ projects[libraries][version] = 1.0
 projects[libraries][subdir] = contrib
 
 projects[link][type] = "module"
-projects[link][version] = 1.4
+projects[link][version] = 1.3
 projects[link][subdir] = contrib
 
 projects[logintoboggan][type] = "module"
@@ -200,7 +200,7 @@ projects[facetapi_pretty_paths][type] = "module"
 projects[facetapi_pretty_paths][subdir] = contrib
 
 
-projects[features_extra][version] = 1.0-rc2
+projects[features_extra][version] = 1.0-beta1
 projects[features_extra][type] = "module"
 projects[features_extra][subdir] = contrib
 
@@ -295,7 +295,7 @@ projects[backup_migrate][subdir] = contrib
 projects[open_way_modules][type] = "module"
 projects[open_way_modules][download][type] = "git"
 projects[open_way_modules][download][url] = "git://github.com/Progressable/open_way_modules.git"
-projects[purr_messages][subdir] = open_way
+projects[open_way_modules][subdir] = open_way
 
 projects[open_way_structure_vol_opps][type] = "module"
 projects[open_way_structure_vol_opps][download][type] = "git"
@@ -315,7 +315,7 @@ projects[open_way_2015][download][url] = "git://github.com/uwgnh/open_way_2015.g
 
 ;Libraries
 libraries[profiler][download][type] = "get"
-libraries[profiler][download][url] = "http://ftp.drupal.org/files/projects/profiler-7.x-2.0-beta1.tar.gz"
+libraries[profiler][download][url] = "http://ftp.drupal.org/files/projects/profiler-7.x-2.0-beta2.tar.gz"
 
 
 
