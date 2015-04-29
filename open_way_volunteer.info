@@ -132,7 +132,7 @@ dependencies[] = open_way_people_admin_permissions
 ;dependencies[] = open_way_people_content_permissions
 ;dependencies[] = open_way_people_block_permissions
 ;dependencies[] = open_way_structure_blogger_bio
-dependencies[] = open_way_structure_volunteer_opportunities
+dependencies[] = open_way_structure_vol_opps
 
 
 

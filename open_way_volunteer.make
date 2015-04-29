@@ -183,37 +183,109 @@ projects[ds][version] = 1.5
 projects[ds][type] = "module"
 projects[ds][subdir] = contrib
 
-
-projects:
-calendar
-
-projects:
-date_api
-
-projects:
-date_popup
+projects[calendar][version] = 3.5
+projects[calendar][type] = "module"
+projects[calendar][subdir] = contrib
 
 
-projects:
-facetapi
-facetapi_pretty_paths
-fe_block
-feeds_profile2
-feeds_tamper
-feeds_tamper_ui
-feeds_ui
-gmap
-job_scheduler
-location_cck
-phone
-profile2_page
-profile2_regpath
-rules_admin
-search_api
-search_api_db
-search_api_facetapi
-search_api_views
-strongarm
+
+
+projects[facetapi][version] = 1.3
+projects[facetapi][type] = "module"
+projects[facetapi][subdir] = contrib
+
+
+projects[facetapi_pretty_paths][version] = 1.3
+projects[facetapi_pretty_paths][type] = "module"
+projects[facetapi_pretty_paths][subdir] = contrib
+
+
+projects[features_extra][version] = 1.0-beta1
+projects[features_extra][type] = "module"
+projects[features_extra][subdir] = contrib
+
+
+projects[feeds_profile2][version] = 1.2
+projects[feeds_profile2][type] = "module"
+projects[feeds_profile2][subdir] = contrib
+
+projects[feeds_tamper][version] = 1.0
+projects[feeds_tamper][type] = "module"
+projects[feeds_tamper][subdir] = contrib
+
+
+projects[feeds][version] = 2.0-alpha8
+projects[feeds][type] = "module"
+projects[feeds][subdir] = contrib
+
+
+projects[gmap][version] = 2.9
+projects[gmap][type] = "module"
+projects[gmap][subdir] = contrib
+
+
+projects[job_scheduler][version] = 2.0-alpha3
+projects[job_scheduler][type] = "module"
+projects[job_scheduler][subdir] = contrib
+
+projects[location][version] = 3.6
+projects[location][type] = "module"
+projects[location][subdir] = contrib
+
+
+projects[phone][version] = 1.0-beta1
+projects[phone][type] = "module"
+projects[phone][subdir] = contrib
+
+
+projects[profile2][version] = 1.3
+projects[profile2][type] = "module"
+projects[profile2][subdir] = contrib
+
+
+projects[profile2_regpath][version] = 1.12
+projects[profile2_regpath][type] = "module"
+projects[profile2_regpath][subdir] = contrib
+
+
+projects[rules][version] = 2.9
+projects[rules][type] = "module"
+projects[rules][subdir] = contrib
+
+
+projects[search_api][version] = 1.14
+projects[search_api][type] = "module"
+projects[search_api][subdir] = contrib
+
+
+projects[search_api_db][version] = 1.4
+projects[search_api_db][type] = "module"
+projects[search_api_db][subdir] = contrib
+
+
+
+projects[strongarm][version] = 2.0
+projects[strongarm][type] = "module"
+projects[strongarm][subdir] = contrib
+
+
+projects[menu_block][version] = 2.5
+projects[menu_block][type] = "module"
+projects[menu_block][subdir] = contrib
+
+
+projects[context][version] = 3.6
+projects[context][type] = "module"
+projects[context][subdir] = contrib
+
+
+
+projects[backup_migrate][version] = 2.8
+projects[backup_migrate][type] = "module"
+projects[backup_migrate][subdir] = contrib
+
+
+
 
 
 
