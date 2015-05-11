@@ -27,9 +27,9 @@
 ; - variables
 ; -----------------------------------------------------------------------------
 
-name = Open Way
+name = Open Way Volunteer
 old_short_name = standard
-description = A Drupal distribution for United Way.
+description = A Drupal distribution to create volunteer listings
 core = 7.x
 theme = open_way_2015
 
@@ -50,17 +50,17 @@ theme = open_way_2015
 ; and enabled automatically.
 ; -----------------------------------------------------------------------------
 dependencies[] = filter
-dependencies[] = help
+;dependencies[] = help
 dependencies[] = menu
 dependencies[] = node
 dependencies[] = path
 dependencies[] = system
 dependencies[] = user
 dependencies[] = block
-dependencies[] = comment
+;dependencies[] = comment
 dependencies[] = dashboard
-dependencies[] = overlay
-dependencies[] = search
+;dependencies[] = overlay
+;dependencies[] = search
 dependencies[] = shortcut
 dependencies[] = taxonomy
 dependencies[] = toolbar
@@ -68,8 +68,6 @@ dependencies[] = blog
 
 ; Contrib
 dependencies[] = date_api
-dependencies[] = imageapi
-dependencies[] = imageapi_gd
 dependencies[] = token
 dependencies[] = globalredirect
 dependencies[] = number
@@ -78,28 +76,27 @@ dependencies[] = views
 ; dependencies[] = views_ui
 ; dependencies[] = views_export
 dependencies[] = features
-dependencies[] = pathauto
 ;dependencies[] = wysiwyg
-dependencies[] = context
+;dependencies[] = context
 ; dependencies[] = context_ui
 dependencies[] = email
 dependencies[] = link
-dependencies[] = better_formats
+;dependencies[] = better_formats
 ;dependencies[] = boxes
-dependencies[] = backup_migrate
+;dependencies[] = backup_migrate
 ; dependencies[] = diff
-dependencies[] = logintoboggan
+;dependencies[] = logintoboggan
 dependencies[] = menu_block
 ; dependencies[] = mollom
 dependencies[] = pathauto
-dependencies[] = redirect
-dependencies[] = save_draft
-dependencies[] = search404
-dependencies[] = metatag
+;dependencies[] = redirect
+;dependencies[] = save_draft
+;dependencies[] = search404
+;dependencies[] = metatag
 ;dependencies[] = purr_messages
-dependencies[] = dblog
-dependencies[] = rdf
-dependencies[] = syslog
+;dependencies[] = dblog
+;dependencies[] = rdf
+;dependencies[] = syslog
 ;dependencies[] = page_title
 ;dependencies[] = xmlsitemap
 ;dependencies[] = google_analytics
@@ -108,10 +105,10 @@ dependencies[] = syslog
 ; Open Way Features
 
 
-dependencies[] = open_way_people_roles
-dependencies[] = open_way_people_structure_perm
-dependencies[] = open_way_configuration_default_settings
-dependencies[] = open_way_configuration_user_managment
+;dependencies[] = open_way_people_roles
+;dependencies[] = open_way_people_structure_perm
+;dependencies[] = open_way_configuration_default_settings
+;dependencies[] = open_way_configuration_user_managment
 ;dependencies[] = open_way_configuration_text_formats
 ;dependencies[] = open_way_configuration_images_styles
 ;dependencies[] = open_way_appearance_live_united_2012
@@ -128,7 +125,7 @@ dependencies[] = open_way_configuration_user_managment
 ;dependencies[] = open_way_structure_display_box
 ;dependencies[] = open_way_configuration_wysiwyg
 ;dependencies[] = open_way_people_user_permissions
-dependencies[] = open_way_people_admin_permissions
+;dependencies[] = open_way_people_admin_permissions
 ;dependencies[] = open_way_people_content_permissions
 ;dependencies[] = open_way_people_block_permissions
 ;dependencies[] = open_way_structure_blogger_bio
