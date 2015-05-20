@@ -15,6 +15,19 @@ projects[drupal][version] = "7.x"
 ; --------
 
 
+;to do be sure to add
+
+;date_api
+;search_api_facetapi
+;search_api_views
+;location_cck
+;gmap_location
+;fe_block
+;date_views
+;date_popup
+;date_api
+
+
 projects[better_formats][type] = "module"
 projects[better_formats][version] = 1.x-dev
 projects[better_formats][subdir] = contrib
@@ -187,9 +200,6 @@ projects[calendar][version] = 3.5
 projects[calendar][type] = "module"
 projects[calendar][subdir] = contrib
 
-
-
-
 projects[facetapi][version] = 1.5
 projects[facetapi][type] = "module"
 projects[facetapi][subdir] = contrib
@@ -292,10 +302,10 @@ projects[backup_migrate][subdir] = contrib
 ; Open Way Modules
 ; --------
 
-projects[open_way_modules][type] = "module"
-projects[open_way_modules][download][type] = "git"
-projects[open_way_modules][download][url] = "git://github.com/Progressable/open_way_modules.git"
-projects[open_way_modules][subdir] = open_way
+;projects[open_way_modules][type] = "module"
+;projects[open_way_modules][download][type] = "git"
+;projects[open_way_modules][download][url] = "git://github.com/Progressable/open_way_modules.git"
+;projects[open_way_modules][subdir] = open_way
 
 projects[open_way_structure_vol_opps][type] = "module"
 projects[open_way_structure_vol_opps][download][type] = "git"

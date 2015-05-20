@@ -57,10 +57,7 @@ dependencies[] = path
 dependencies[] = system
 dependencies[] = user
 dependencies[] = block
-;dependencies[] = comment
 dependencies[] = dashboard
-;dependencies[] = overlay
-;dependencies[] = search
 dependencies[] = shortcut
 dependencies[] = taxonomy
 dependencies[] = toolbar
@@ -68,67 +65,46 @@ dependencies[] = blog
 
 ; Contrib
 dependencies[] = date_api
-dependencies[] = token
-dependencies[] = globalredirect
-dependencies[] = number
-dependencies[] = text
 dependencies[] = views
-; dependencies[] = views_ui
-; dependencies[] = views_export
-dependencies[] = features
-;dependencies[] = wysiwyg
-;dependencies[] = context
-; dependencies[] = context_ui
-dependencies[] = email
-dependencies[] = link
-;dependencies[] = better_formats
-;dependencies[] = boxes
-;dependencies[] = backup_migrate
-; dependencies[] = diff
-;dependencies[] = logintoboggan
-dependencies[] = menu_block
-; dependencies[] = mollom
+dependencies[] = token
+dependencies[] = text
+dependencies[] = taxonomy
+dependencies[] = strongarm
+dependencies[] = search_api_views
+dependencies[] = search_api_facetapi
+dependencies[] = search_api_db
+dependencies[] = search_api
+dependencies[] = profile2_regpath
+dependencies[] = profile2_page
+dependencies[] = profile2
+dependencies[] = phone
 dependencies[] = pathauto
-;dependencies[] = redirect
-;dependencies[] = save_draft
-;dependencies[] = search404
-;dependencies[] = metatag
-;dependencies[] = purr_messages
-;dependencies[] = dblog
-;dependencies[] = rdf
-;dependencies[] = syslog
-;dependencies[] = page_title
-;dependencies[] = xmlsitemap
-;dependencies[] = google_analytics
-;dependencies[] = extlink
+dependencies[] = number
+dependencies[] = menu_block
+dependencies[] = location_cck
+dependencies[] = link
+dependencies[] = image
+dependencies[] = gmap_location
+dependencies[] = gmap
+dependencies[] = globalredirect
+dependencies[] = field_group
+dependencies[] = feeds_tamper
+dependencies[] = features
+dependencies[] = fe_block
+dependencies[] = facetapi_pretty_paths
+dependencies[] = facetapi
+dependencies[] = email
+dependencies[] = defaultcontent
+dependencies[] = date_views
+dependencies[] = date_popup
+dependencies[] = date_api
+dependencies[] = date
+dependencies[] = calendar
+
+
 
 ; Open Way Features
 
-
-;dependencies[] = open_way_people_roles
-;dependencies[] = open_way_people_structure_perm
-;dependencies[] = open_way_configuration_default_settings
-;dependencies[] = open_way_configuration_user_managment
-;dependencies[] = open_way_configuration_text_formats
-;dependencies[] = open_way_configuration_images_styles
-;dependencies[] = open_way_appearance_live_united_2012
-;dependencies[] = open_way_structure_pages
-;dependencies[] = open_way_structure_story
-;dependencies[] = open_way_structure_blog
-;dependencies[] = open_way_structure_slides
-;dependencies[] = open_way_structure_front_page_slideshow
-;dependencies[] = open_way_content_default_pages
-;dependencies[] = open_way_content_default_display_boxes
-;dependencies[] = open_way_content_default_stories
-;dependencies[] = open_way_content_default_slides
-;dependencies[] = open_way_structure_featured_activity_list
-;dependencies[] = open_way_structure_display_box
-;dependencies[] = open_way_configuration_wysiwyg
-;dependencies[] = open_way_people_user_permissions
-;dependencies[] = open_way_people_admin_permissions
-;dependencies[] = open_way_people_content_permissions
-;dependencies[] = open_way_people_block_permissions
-;dependencies[] = open_way_structure_blogger_bio
 dependencies[] = open_way_structure_vol_opps
 
 
@@ -148,22 +124,22 @@ dependencies[] = open_way_structure_vol_opps
 ;variables[site_mail] = testing@testing
 
 ; options for default theme
-variables [toggle_logo] = 1
-variables [toggle_name] = 1
-variables [toggle_slogan] = 0
-variables [toggle_node_user_picture] = 1
-variables [toggle_comment_user_picture] = 1
-variables [toggle_main_menu] = 0
-variables [toggle_secondary_menu] = 0
-variables [default_logo] = 0 
-variables [default_favicon] = 0
-variables [zen_breadcrumb] = yes
-variables [zen_breadcrumb_home] = 1
-variables [zen_breadcrumb_trailing] = 1
-variables [zen_breadcrumb_title] = 0
-variables [zen_rebuild_registry] = 0
-variables [zen_wireframes] = 0
-variables [favicon_mimetype] = image/gif
+;variables [toggle_logo] = 1
+;variables [toggle_name] = 1
+;variables [toggle_slogan] = 0
+;variables [toggle_node_user_picture] = 1
+;variables [toggle_comment_user_picture] = 1
+;variables [toggle_main_menu] = 0
+;variables [toggle_secondary_menu] = 0
+;variables [default_logo] = 0 
+;variables [default_favicon] = 0
+;variables [zen_breadcrumb] = yes
+;variables [zen_breadcrumb_home] = 1
+;variables [zen_breadcrumb_trailing] = 1
+;variables [zen_breadcrumb_title] = 0
+;variables [zen_rebuild_registry] = 0
+;variables [zen_wireframes] = 0
+;variables [favicon_mimetype] = image/gif
 
 ; You may also want to set the clean url variable if you don't need clean urls. 
 ; Since we bypassed the configuration screen, it is enabled by default, so to 
