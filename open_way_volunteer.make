@@ -295,8 +295,15 @@ projects[backup_migrate][type] = "module"
 projects[backup_migrate][subdir] = contrib
 
 
+projects[xautoload][version] = 5.1
+projects[xautoload][type] = "module"
+projects[xautoload][subdir] = contrib
 
 
+
+projects[nice_menus][version] = 2.5
+projects[nice_menus][type] = "module"
+projects[nice_menus][subdir] = contrib
 
 
 ; Open Way Modules
@@ -319,6 +326,11 @@ projects[open_way_structure_vol_opps][subdir] = open_way
 projects[open_way_2015][type] = "theme"
 projects[open_way_2015][download][type] = "git"
 projects[open_way_2015][download][url] = "git://github.com/uwgnh/open_way_2015.git"
+
+projects[zen][type] = "theme"
+projects[zen][version] = 5.5
+projects[zen][type] = "theme"
+
   
 ; Libraries
 ; ---------
