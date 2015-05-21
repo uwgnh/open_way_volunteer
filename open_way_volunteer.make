@@ -288,8 +288,6 @@ projects[context][version] = 3.6
 projects[context][type] = "module"
 projects[context][subdir] = contrib
 
-
-
 projects[backup_migrate][version] = 2.8
 projects[backup_migrate][type] = "module"
 projects[backup_migrate][subdir] = contrib
@@ -299,11 +297,14 @@ projects[xautoload][version] = 5.1
 projects[xautoload][type] = "module"
 projects[xautoload][subdir] = contrib
 
-
-
 projects[nice_menus][version] = 2.5
 projects[nice_menus][type] = "module"
 projects[nice_menus][subdir] = contrib
+
+projects[image_resize_filter][version] = 1.14
+projects[image_resize_filter][type] = "module"
+projects[image_resize_filter][subdir] = contrib
+
 
 
 ; Open Way Modules
