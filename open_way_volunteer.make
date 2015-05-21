@@ -15,7 +15,7 @@ projects[drupal][version] = "7.x"
 ; --------
 
 
-;to do be sure to add
+;to do be sure to checked for dependency
 
 ;date_api
 ;search_api_facetapi
@@ -323,10 +323,10 @@ projects[open_way_2015][download][url] = "git://github.com/uwgnh/open_way_2015.g
 ; Libraries
 ; ---------
 
+
 ;Libraries
 libraries[profiler][download][type] = "get"
-libraries[profiler][download][url] = "http://ftp.drupal.org/files/projects/profiler-7.x-2.0-beta2.tar.gz"
-
+libraries[profiler][download][url] = "http://ftp.drupal.org/files/projects/profiler-7.x-2.0-beta1.tar.gz"
 
 
 ; Install Profile
