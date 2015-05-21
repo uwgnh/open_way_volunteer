@@ -110,12 +110,12 @@ dependencies[] = open_way_structure_vol_opps
 dependencies[] = open_way_configuration_default_settings
 dependencies[] = open_way_configuration_images_styles
 dependencies[] = open_way_configuration_text_formats
-dependencies[] = open_way_configuration_user_managment
-dependencies[] = open_way_configuration_wysiwyg
-dependencies[] = open_way_people_content_permissions
+;dependencies[] = open_way_configuration_user_managment
+;dependencies[] = open_way_configuration_wysiwyg
+;dependencies[] = open_way_people_content_permissions
 dependencies[] = open_way_people_roles
-dependencies[] = open_way_people_structure_perm
-dependencies[] = open_way_people_user_permissions
+;dependencies[] = open_way_people_structure_perm
+;dependencies[] = open_way_people_user_permissions
 dependencies[] = open_way_structure_pages
 
 

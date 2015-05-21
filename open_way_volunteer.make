@@ -305,6 +305,9 @@ projects[image_resize_filter][version] = 1.14
 projects[image_resize_filter][type] = "module"
 projects[image_resize_filter][subdir] = contrib
 
+projects[userprotect][version] = 1.1
+projects[userprotect][type] = "module"
+projects[userprotect][subdir] = contrib
 
 
 ; Open Way Modules
